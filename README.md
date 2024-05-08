@@ -15,7 +15,7 @@ The project is structured into several Python files:
 
 The application provides the following API endpoints:
 
-- `GET /`: Returns a welcome message.
+- `GET /todos`: Returns a welcome message.
 - `POST /todos`: Creates a new todo item.
 - `GET /todos/{id}`: Returns a todo item by its id.
 - `PUT /todos/{id}`: Updates a todo item by its id.
