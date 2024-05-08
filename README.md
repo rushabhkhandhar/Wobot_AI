@@ -30,8 +30,10 @@ To set up and run the application, follow these steps:
 ```bash
 pip install -r requirements.txt
 ```
-2. cd app/
-
+2. Change directory 
+```bash
+cd app/
+```
 3. Run the main.py file using :
 ```bash
 uvicorn main:app --reload
