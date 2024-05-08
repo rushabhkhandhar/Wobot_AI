@@ -6,7 +6,7 @@ This is a simple ToDo List application built using Python's FastAPI framework. T
 
 The project is structured into several Python files:
 
-- `database.py`: This file sets up the database engine, base class for the models, and session factory for the database operations using SQLAlchemy.
+- `database.py`: This file sets up the database engine, base class for the models, and session factory for the database operations using MONGODB.
 - `models.py`: This file defines the `TodoCreate` and `TodoUpdate` model which represents a todo item in the database.
 - `authentication.py`: verifies user credentials and retrieves the current user, ensuring access control for protected routes.
 - `main.py`: This file contains the FastAPI application and all the API endpoints.
